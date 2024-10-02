@@ -3,6 +3,5 @@
   collections:
     - devsec.hardening
   roles:
-     - devsec.hardening
      - harding
 
