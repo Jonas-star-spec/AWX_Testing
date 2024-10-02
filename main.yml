@@ -3,5 +3,7 @@
   collections:
     - devsec.hardening
   roles:
-     - harding
+    - name: Import a role
+      ansible.builtin.import_role:
+        name: devsec.hardening.os_hardening
 
