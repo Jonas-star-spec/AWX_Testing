@@ -1,4 +1,9 @@
-- name: apply common configuration to all nodes
+- name: Run a play using the collections keyword
   hosts: all
+  collections:
+    - devsec.hardening
+
+- name: apply common configuration to all nodes
+  hosts: testing
   roles:
     - harding
