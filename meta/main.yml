@@ -1,5 +1,3 @@
-dependencies:
-  - src: https://github.com/dev-sec/ansible-collection-hardening
-    scm: git
-    version: master
-    name: os_hardening
+---
+collections:
+- ansible-collection-hardening
