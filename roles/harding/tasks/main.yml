@@ -1,2 +1,5 @@
+collections:
+    - devsec.hardening
+
 - import_role:
     name: devsec.hardening.os_hardening
