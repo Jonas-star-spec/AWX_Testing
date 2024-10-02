@@ -2,8 +2,3 @@
   hosts: all
   collections:
     - devsec.hardening
-
-- name: apply common configuration to all nodes
-  hosts: testing
-  roles:
-    - harding
