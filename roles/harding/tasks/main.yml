@@ -1,2 +1,2 @@
 - import_role:
-    name: devsec.hardening
+    name: os_hardening
